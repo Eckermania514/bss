@@ -1054,10 +1054,10 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=50000
+                stats.capacity+=50000000
                 stats.convertRate*=1.55
             },
-            desc:'A machine which packs pollen down to increase storage.<br><br>+50,000 capacity<br>x1.55 convert rate',
+            desc:'A machine which packs pollen down to increase storage.<br><br>+50,000,000 capacity<br>x1.55 convert rate',
             cost:['160000 honey'],
         },
 

@@ -524,9 +524,9 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.bluePollen*=1.15
-                stats.whitePollen*=1.15
-                stats.redPollen*=1.15
+                stats.bluePollen*=115
+                stats.whitePollen*=115
+                stats.redPollen*=115
                 stats.defense+=0.1
 
             },

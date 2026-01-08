@@ -92,10 +92,10 @@ window.playerGear={
         
         superSaturator:{
 
-            count:1,
-            diameter:15,
+            count:23,
+            diameter:20,
             power:0.5,
-            rate:1,
+            rate:0.1,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y+0.25,z,0.15,2.5,10,0.9,0.9,0.5,1,90,0,0)
@@ -117,7 +117,7 @@ window.playerGear={
                 cylinder(x,y+0.7,z,0.1,0.5,10,0.2,10,10,0,0,0,0.1,false)
             },
             desc:'The ultimate sprinkler. Nobody knows how it works or where it came from.<br><br>Count: 1<br>Diameter: 15<br>Power: 50<br>Rate: 1s<br><br>Press "R" to place a sprinkler.',
-            cost:['55555555555 honey'],
+            cost:['5 honey'],
         }
     },
     
